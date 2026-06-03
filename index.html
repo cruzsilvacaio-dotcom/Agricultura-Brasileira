@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agro Brasil Hoje</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="header">
+    <div class="header-grain"></div>
+    <div class="header-content">
+      <div class="header-badge">🌾 Brasil Agrícola</div>
+      <h1 class="header-title">Agro Brasil <span class="highlight">Hoje</span></h1>
+      <p class="header-subtitle">Conhecimento e inovação para fortalecer a agricultura brasileira.</p>
+      <div class="header-scroll-hint">
+        <span>Explorar</span>
+        <div class="scroll-arrow">↓</div>
+      </div>
+    </div>
+    <div class="header-deco">
+      <div class="deco-circle c1"></div>
+      <div class="deco-circle c2"></div>
+      <div class="deco-circle c3"></div>
+    </div>
+  </header>
+
+  <!-- ===== SEÇÃO INTRODUÇÃO ===== -->
+  <section class="intro-strip">
+    <div class="strip-item"><span>🌱</span> Tecnologia no Campo</div>
+    <div class="strip-item"><span>💧</span> Água Eficiente</div>
+    <div class="strip-item"><span>🌍</span> Sustentabilidade</div>
+    <div class="strip-item"><span>📡</span> Precisão Agrícola</div>
+    <div class="strip-item"><span>🚛</span> Logística Moderna</div>
+    <div class="strip-item"><span>🔬</span> Pesquisa e Inovação</div>
+  </section>
+
+  <!-- ===== SEÇÃO DE TÓPICOS ===== -->
+  <main>
+    <section class="topics-section" id="topics">
+      <div class="section-header">
+        <p class="section-label">Como Melhorar</p>
+        <h2 class="section-title">10 Pilares da Agricultura Moderna</h2>
+        <p class="section-desc">Conheça as principais estratégias que estão transformando o campo brasileiro.</p>
+      </div>
+
+      <div class="topics-grid" id="topicsGrid">
+        <!-- Gerado via JavaScript -->
+      </div>
+    </section>
+
+    <!-- ===== QUIZ ===== -->
+    <section class="quiz-section" id="quiz">
+      <div class="section-header">
+        <p class="section-label">Teste seus conhecimentos</p>
+        <h2 class="section-title">Quiz Agro Brasil</h2>
+        <p class="section-desc">Responda 10 perguntas e descubra quanto você sabe sobre agricultura brasileira.</p>
+      </div>
+
+      <div class="quiz-container" id="quizContainer">
+
+        <!-- Tela de início -->
+        <div class="quiz-start" id="quizStart">
+          <div class="quiz-start-icon">🌾</div>
+          <h3>Pronto para o desafio?</h3>
+          <p>10 questões sobre agricultura moderna no Brasil. Cada acerto vale 1 ponto.</p>
+          <button class="btn-primary" id="btnStart">Iniciar Quiz</button>
+        </div>
+
+        <!-- Tela de questão -->
+        <div class="quiz-question-area" id="quizQuestionArea" style="display:none;">
+          <div class="quiz-meta">
+            <span class="quiz-counter" id="quizCounter">Questão 1 de 10</span>
+            <span class="quiz-score-live" id="quizScoreLive">Pontos: 0</span>
+          </div>
+          <div class="quiz-progress-bar">
+            <div class="quiz-progress-fill" id="quizProgressFill"></div>
+          </div>
+          <div class="quiz-card" id="quizCard">
+            <p class="quiz-question-text" id="quizQuestionText"></p>
+            <div class="quiz-options" id="quizOptions"></div>
+          </div>
+          <button class="btn-next" id="btnNext" style="display:none;">Próxima →</button>
+        </div>
+
+        <!-- Tela de resultado -->
+        <div class="quiz-result" id="quizResult" style="display:none;">
+          <div class="result-badge" id="resultBadge"></div>
+          <h3 id="resultTitle"></h3>
+          <div class="result-score" id="resultScore"></div>
+          <p class="result-message" id="resultMessage"></p>
+          <div class="result-bar-wrap">
+            <div class="result-bar" id="resultBar"></div>
+          </div>
+          <div class="result-actions">
+            <button class="btn-primary" id="btnRetry">Tentar Novamente</button>
+            <button class="btn-secondary" id="btnReview">Ver Tópicos</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">🌾 Agro Brasil Hoje</div>
+      <p class="footer-tagline">Fortalecendo o campo com conhecimento e inovação.</p>
+      <p class="footer-copy">© 2025 Agro Brasil Hoje · Educação Agrícola Brasileira</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
