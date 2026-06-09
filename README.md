@@ -1,2 +1,1 @@
-# Agricultura-Brasileira
-trabalho
+Agricultura brasileira é desenvolvido em HTML, CSS e JavaScript que apresenta informações sobre a importancia da agricultura no Brasil, destacando as principais culturas agricolas, regiões produtoras e a contribuição do agronegóciopara economia nacional
